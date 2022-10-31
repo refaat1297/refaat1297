@@ -29,7 +29,7 @@
   <a href="https://www.facebook.com/refaat1297" tagret="_blank" title="Facebook">
     <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/>
   </a>
-  <a href="https://www.instagram.com/refaat1297" tagret="_blank" title="Instagram">
+  <a href="https://www.instagram.com/arefaat1297" tagret="_blank" title="Instagram">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
 </p>
