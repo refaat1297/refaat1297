@@ -24,9 +24,12 @@
     height: 28px;
     border-radius: 50%;
     background-color: transparent;
-    border: .6px solid #66d9ed;
-    position: absolute;
-    z-index: 10;
+    border: 1px solid #66d9ed;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 10000000;
     transition: transform .09s;
     opacity: 0;
     place-items: center;
@@ -37,8 +40,11 @@
     height: 6px;
     background-color: rgba(#66d9ed, .8);
     border-radius: 50%;
-    position: absolute;
-    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 10000000;
     opacity: 0;
     transition: transform .01s;
   }
