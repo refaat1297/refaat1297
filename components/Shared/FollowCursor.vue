@@ -1,0 +1,46 @@
+<script setup>
+  const dot = ref({})
+  const circle = ref({})
+  onMounted(() => {
+    window.addEventListener('mousemove', function (e) {
+      circle.value.style = `opacity: 1; transform: translateY(${e.pageY - 14}px) translateX(${e.pageX - 14}px)`
+      dot.value.style = `opacity: 1; transform: translateY(${e.pageY - 3}px) translateX(${e.pageX - 3}px)`
+    })
+  })
+</script>
+
+<template>
+  <div class="follow-cursor" ref="followCursor">
+    <span class="dot" ref="dot"></span>
+    <span class="circle" ref="circle"></span>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.follow-cursor {
+  transition: all .3s;
+  .circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: .6px solid #66d9ed;
+    position: absolute;
+    z-index: 10;
+    transition: transform .09s;
+    opacity: 0;
+    place-items: center;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    background-color: rgba(#66d9ed, .8);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    transition: transform .01s;
+  }
+}
+</style>

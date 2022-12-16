@@ -3,7 +3,7 @@
     <div class="overlay">
       <div>
         <h1 class="font-semi-bold">Ahmed Refaat</h1>
-        <p class="font-medium">SOFTWARE ENGINEER, FRONT END & APP DEVELOPER.</p>
+        <p class="font-medium">SOFTWARE ENGINEER, FRONT END DEVELOPER.</p>
       </div>
     </div>
   </div>
