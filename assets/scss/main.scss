@@ -1,0 +1,13 @@
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: #f78da7;
+  color: #fff;
+  text-shadow: 10px 10px 10px rgba(#000, .3);
+}

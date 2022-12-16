@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   devServer: {
     port: 8080,
     url: "http://localhost:8080"
-  }
+  },
+  css: [
+    '@/assets/scss/main.scss'
+  ]
 })
