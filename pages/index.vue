@@ -1,3 +1,11 @@
+<script setup>
+</script>
+
 <template>
-  <div>hello this is main page</div>
+  <div class="home-page">
+    <HomeWhoAmI />
+  </div>
 </template>
+
+<style></style>
+
