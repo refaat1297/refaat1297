@@ -8,7 +8,7 @@
         <HomeAboutMeLogoMask class="logo-mask absolute left-1/2 top-1/2 opacity-50" />
         <div class="content select-none">
           <h1 class="ar-black-font text-6xl md:text-7xl lg:text-8xl">Ahmed Refaat</h1>
-          <p class="text-3xl md:text-4xl ar-extra-light-font italic">Interactive Front-end Developer</p>
+          <p class="text-3xl md:text-4xl ar-light-font italic">Interactive Front-end Developer</p>
           <a href="#" class="text-xl md:text-2xl">About Me</a>
         </div>
       </div>
