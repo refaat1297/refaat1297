@@ -3,8 +3,8 @@
   const circle = ref({})
   onMounted(() => {
     window.addEventListener('mousemove', function (e) {
-      circle.value.style = `opacity: 1; transform: translateY(${e.pageY - 14}px) translateX(${e.pageX - 14}px)`
-      dot.value.style = `opacity: 1; transform: translateY(${e.pageY - 3}px) translateX(${e.pageX - 3}px)`
+      circle.value.style = `opacity: 1; transform: translateY(${e.y - 15}px) translateX(${e.x - 15}px)`
+      dot.value.style = `opacity: 1; transform: translateY(${e.y - 3}px) translateX(${e.x - 3}px)`
     })
   })
 </script>
@@ -20,8 +20,8 @@
 .follow-cursor {
   transition: all .3s;
   .circle {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: transparent;
     border: 1px solid #66d9ed;
