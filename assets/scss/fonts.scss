@@ -107,3 +107,37 @@
 }
 
 
+/* ------------------------------------------------- */
+// navbar font
+@font-face {
+  font-family: InconsolataMediumFont;
+  src: url("~/assets/fonts/Inconsolata-Medium.ttf");
+}
+
+.ar-navbar-medium-font {
+  font-family: InconsolataMediumFont, sans-serif;
+}
+
+@font-face {
+  font-family: InconsolataBoldFont;
+  src: url("~/assets/fonts/Inconsolata-Bold.ttf");
+}
+
+.ar-navbar-bold-font {
+  font-family: InconsolataBoldFont, sans-serif;
+}
+
+
+
+@font-face {
+  font-family: InconsolataExtraBoldFont;
+  src: url("~/assets/fonts/Inconsolata-ExtraBold.ttf");
+}
+
+.ar-navbar-extra-bold-font {
+  font-family: InconsolataExtraBoldFont, sans-serif;
+}
+
+
+
+
