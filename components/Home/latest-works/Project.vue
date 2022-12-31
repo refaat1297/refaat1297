@@ -14,7 +14,7 @@
     </div>
     <div class="content relative pb-11">
       <h5 class="text-[#b0b2c3] ar-navbar-medium-font text-sm">{{ project.type }}</h5>
-      <h3 class="text-white text-3xl ar-semi-bold-font">{{ project.name }}</h3>
+      <h3 class="text-white text-2xl md:text-3xl ar-semi-bold-font">{{ project.name }}</h3>
       <p class="text-[#b0b2c3] text-base md:text-lg my-4">{{ project.description }}</p>
       <div class="technologies flex justify-start items-center flex-wrap gap-2 select-none" >
         <p
