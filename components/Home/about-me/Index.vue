@@ -2,13 +2,10 @@
 </script>
 
 <template>
-  <div class="w-full">
+  <div class="about-me w-full">
     <div class="who-iam h-screen relative bg-[#1c1d25]">
 
-      <div class="
-        social-links absolute right-0	top-1/2	-translate-y-1/2	px-6
-
-      ">
+      <div class="social-links absolute right-0	top-1/2	-translate-y-1/2	px-6">
         <a href="https://github.com/refaat1297" class="w-8 h-8 block md:mb-4" target="_blank">
           <IconsGithub class="w-full h-full fill-[#b0b2c3] hover:fill-white transition ease-in-out" />
         </a>
@@ -31,7 +28,10 @@
         <div class="content select-none">
           <h1 class="ar-black-font text-6xl md:text-7xl lg:text-8xl m-0">Ahmed Refaat</h1>
           <p class="text-3xl md:text-4xl ar-light-font italic">An Interactive Front-end Developer</p>
-          <a href="#" class="text-sm md:text-lg	ar-semi-bold-font tracking-[.21em] mt-8 inline-block py-2 px-5">About Me</a>
+          <a href="/Ahmed%20Refaat.pdf" download target="_blank" class="rounded inline-flex gap-1 justify-start items-end mt-8 inline-block py-2 px-5">
+            <IconsDownload class="fill-white md:-translate-y-1" />
+            <span class="text-sm md:text-lg	ar-semi-bold-font tracking-[.12em]">My Resume</span>
+          </a>
         </div>
       </div>
     </div>

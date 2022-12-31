@@ -4,6 +4,7 @@
     <HomeAboutMe />
     <HomeWorkExperience />
     <HomeLatestWorks />
+<!--    <HomeContactUs />-->
   </div>
 </template>
 
