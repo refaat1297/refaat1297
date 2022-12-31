@@ -4,8 +4,9 @@
 
 @import "fonts";
 
-body {
+body, html {
   font-family: RegularFont, sans-serif;
+  scroll-behavior: smooth;
 }
 
 

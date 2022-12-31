@@ -15,9 +15,9 @@
 <template>
   <div class="work-experience w-full py-14 md:py-20">
     <div class="container">
-      <h2 class="ar-semi-bold-font text-4xl md:text-5xl lg:text-5xl text-center text-[#1c1d25] mb-8">Work Experience</h2>
+      <h2 class="ar-semi-bold-font  text-4xl md:text-5xl lg:text-6xl text-center text-[#1c1d25] mb-8">Work Experience</h2>
 
-      <div class="experiences w-full max-w-screen-md mx-auto">
+      <div class="experiences w-full max-w-screen-lg mx-auto">
         <div class="experience" v-for="(experience, index) in experiences" :key="`experience-${index}`">
           <div class="header flex justify-between items-center py-3 px-4 rounded cursor-pointer" @click="open(index)">
             <p class="title ar-semi-bold-font text-base md:text-xl">{{ experience.title }}</p>
