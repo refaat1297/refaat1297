@@ -4,7 +4,8 @@
     <HomeAboutMe />
     <HomeWorkExperience />
     <HomeLatestWorks />
-<!--    <HomeContactUs />-->
+    <HomeContactUs />
+    <SharedFooter />
   </div>
 </template>
 

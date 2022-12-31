@@ -13,6 +13,35 @@ import Firebase from "~/components/Icons/Firebase.vue";
 
 export const experiences = [
   {
+    isOpened: true,
+    title: 'Front End Developer @ ArabyAds',
+    date: '2021 - Present',
+    company: {
+      website: {
+        name: 'arabyads.com',
+        url: 'https://arabyads.com'
+      },
+      location: 'Cairo, Egypt',
+      logo: arabyAdsImg
+    },
+
+    description: [
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid exercitationem libero maxime quis.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid exercitationem libero maxime quis. Autem cumque, illo in inventore.',
+    ],
+
+    technologies: [
+      { icon: shallowRef(HTML), name: "HTML"},
+      { icon: shallowRef(CSS), name: "CSS"},
+      { icon: shallowRef(Sass), name: "Sass"},
+      { icon: shallowRef(Js), name: "JavaScript"},
+      { icon: shallowRef(VueJs), name: "VueJs"},
+      { icon: shallowRef(NuxtJs), name: "NuxtJs"},
+      { icon: shallowRef(Firebase), name: "Firebase"},
+    ],
+  },
+
+  {
     isOpened: false,
     title: 'Front End Developer @ Digital Experts',
     date: '2019 - 2020',
@@ -41,32 +70,4 @@ export const experiences = [
     ],
 
   },
-  {
-    isOpened: false,
-    title: 'Front End Developer @ ArabyAds',
-    date: '2020 - Present',
-    company: {
-      website: {
-        name: 'arabyads.com',
-        url: 'https://arabyads.com'
-      },
-      location: 'Cairo, Egypt',
-      logo: arabyAdsImg
-    },
-
-    description: [
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid exercitationem libero maxime quis.',
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid exercitationem libero maxime quis. Autem cumque, illo in inventore.',
-    ],
-
-    technologies: [
-      { icon: shallowRef(HTML), name: "HTML"},
-      { icon: shallowRef(CSS), name: "CSS"},
-      { icon: shallowRef(Sass), name: "Sass"},
-      { icon: shallowRef(Js), name: "JavaScript"},
-      { icon: shallowRef(VueJs), name: "VueJs"},
-      { icon: shallowRef(NuxtJs), name: "NuxtJs"},
-      { icon: shallowRef(Firebase), name: "Firebase"},
-    ],
-  }
 ]
