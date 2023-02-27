@@ -59,7 +59,7 @@
           <input type="email" v-model="email" class="ar-navbar-medium-font" placeholder="Ex:contact@gmail.com">
         </div>
         <div class="input-group">
-          <span class="ar-semi-bold-font">Message</span>
+          <span class="ar-semi-bold-font">Message:</span>
           <textarea
               v-model="message"
               rows="4"

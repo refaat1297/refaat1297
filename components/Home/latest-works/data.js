@@ -2,6 +2,7 @@
 import HTML from "~/components/Icons/HTML.vue";
 import CSS from "~/components/Icons/CSS.vue";
 import Js from "~/components/Icons/Js.vue";
+import ViteJs from "~/components/Icons/ViteJs.vue";
 import Sass from "~/components/Icons/Sass.vue";
 import VueJs from "~/components/Icons/VueJs.vue";
 import NuxtJs from "~/components/Icons/NuxtJs.vue";
@@ -90,6 +91,7 @@ export const projects = [
       { icon: CSS, name: "CSS"},
       { icon: Sass, name: "Sass"},
       { icon: Js, name: "JavaScript"},
+      { icon: ViteJs, name: "ViteJs"},
     ],
     demo: "https://forkify-js-course.vercel.app",
     repo: "https://github.com/refaat1297/forkify-js-course"

@@ -21,7 +21,7 @@
         <span class="link text-[#b0b2c3] hover:text-white transition ease-in-out cursor-pointer" data-link="about-me">.is()</span>
         <span class="link text-[#b0b2c3] hover:text-white transition ease-in-out cursor-pointer" data-link="work-experience">.getWorkExperience()</span>
         <span class="link text-[#b0b2c3] hover:text-white transition ease-in-out cursor-pointer" data-link="latest-works">.getLatestWorks()</span>
-        <span class="link text-[#b0b2c3] hover:text-white transition ease-in-out cursor-pointer" data-link="contact-us">.contactUs()</span>
+        <span class="link text-[#b0b2c3] hover:text-white transition ease-in-out cursor-pointer" data-link="contact-us">.reachMe()</span>
       </div>
     </div>
   </nav>
