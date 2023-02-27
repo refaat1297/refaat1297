@@ -46,7 +46,7 @@
 
                   <div class="my-3">
                     <p
-                      class="text-sm md:text-base mb-4"
+                      class="text-sm md:text-base mb-2"
                       v-for="(desc, i) in experience.description"
                      :key="`desc-${i}`">{{ desc }}</p>
                   </div>
