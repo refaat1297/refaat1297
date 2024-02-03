@@ -17,7 +17,7 @@ export const projects = [
   {
     type: "Self Project",
     name: "Travelo",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio ex",
+    description: "For this project, I tried Nuxt 2 in practice, the technologies I used were:",
     image: traveloImg,
     technologies: [
       { icon: HTML, name: "HTML"},
@@ -35,7 +35,7 @@ export const projects = [
   {
     type: "Self Project",
     name: "File Uploader",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio ex",
+    description: "For this project, I made a file uploader, the technologies I used were:",
     image: fileUploaderImg,
     technologies: [
       { icon: HTML, name: "HTML"},
@@ -52,7 +52,7 @@ export const projects = [
   {
     type: "Self Project",
     name: "Markdown Preview",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio ex",
+    description: "For this project, I made a Markdown Editor to use RegEx In practice, the technologies I used were:",
     image: markdownPreviewImg,
     technologies: [
       { icon: HTML, name: "HTML"},
@@ -69,7 +69,7 @@ export const projects = [
   {
     type: "Learning Project",
     name: "Mapty",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio ex",
+    description: "A learning project I made with a JS course.",
     image: maptyImg,
     technologies: [
       { icon: HTML, name: "HTML"},
@@ -84,7 +84,7 @@ export const projects = [
   {
     type: "Learning Project",
     name: "Forkify",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta distinctio ex",
+    description: "A learning project I made with a JS course.",
     image: forkifyImg,
     technologies: [
       { icon: HTML, name: "HTML"},
